@@ -1,0 +1,50 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body:hover{
+cursor: default;
+}
+
+.topele{
+    
+    position: absolute;
+    align-self: center;
+    aspect-ratio: 5*1;
+    max-height: 25%;
+    max-width: 500px;
+    min-height: auto;
+    min-width: 250px;
+    margin-top: opx;
+    top: 20px;
+    left: calc(50% - 250px);
+}
+.topele:hover{
+   opacity: 0.9;
+}
+.carousel-item {
+    border-radius: 20%;
+}
+/* 
+.title{
+    text-align: center;
+    position: absolute;
+    align-self: center;
+    top: 28%;
+    max-height: 20%;
+    left: calc(50% - 150px)
+}
+
+.allcontent{
+
+    position: absolute;
+    align-self: center;
+    top: 60%;
+    max-height: auto;
+    left: calc(50% - 150px)
+}
+
+.allcontent hr{
+    width: 100%;
+} */

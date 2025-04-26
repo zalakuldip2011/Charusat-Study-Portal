@@ -1,0 +1,89 @@
+.carousel-item
+{   position: absolute;
+    top: 0;
+    /* left: calc(50% - 500px); */
+    min-width: fit-content;
+    min-height: 30%;
+    max-width: 1000px;
+    max-height: 330px;
+    background-color: black;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20%;
+}
+.carousel-item:hover{
+    opacity: 0.7;
+}
+.header2{
+    color: rgb(251, 160, 38);
+    font-style: inherit;
+    font-weight: bolder;
+    position: relative;
+    -ms-text-size-adjust: auto;
+    top: 12px;
+    background-position-x: center;
+    background-position-y: center;
+    min-width: fit-content;
+    cursor: default;
+
+}
+.header2 p:hover{
+    opacity: 0.7;
+    cursor: default;
+    color: rgb(250, 203, 142);
+}
+.header1{
+    color: azure;
+    text-align: center;
+    font-style: inherit;
+    font-weight: bolder;
+    position: relative;
+    -ms-text-size-adjust: auto;
+    top: 12px;
+    background-position-x: center;
+    background-position-y: center;
+    min-width: fit-content;
+    cursor: default;
+    
+}
+
+.header1 p:hover{
+    opacity: 0.7;
+    cursor: default;
+    color: rgb(134, 224, 137);
+}
+
+
+
+.About_Us:hover{
+    opacity: 0.7;
+}
+
+.Contact_Us:hover{
+    opacity: 0.7;
+}
+
+.Homebtn:hover{
+    opacity: 0.7;
+}
+
+.logo_img:hover{
+    opacity: 0.7;
+    
+}
+
+body{
+    user-select: none;
+}
+body:hover{
+    cursor: default;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.maincntus {
+    color: chartreuse;
+    font-weight: bolder;
+}
